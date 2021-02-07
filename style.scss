@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.map {
+    height: 100vh;
+    width: 100%;
+    background-color: #297aff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.continent {
+    height: 400px;
+    width: 280px;
+    background-color: #00e676;
+    position: absolute;
+    clip-path: polygon(
+            21% 0%,
+            48% 5%,
+            52% 10%,
+            68% 13%,
+            72% 18%,
+            100% 27%,
+            98% 35%,
+            92% 40%,
+            88% 48%,
+            87% 52%,
+            75% 55%,
+            50% 70%,
+            48% 70%,
+            52% 72%,
+            50% 77%,
+            45% 77%,
+            30% 88%,
+            30% 95%,
+            37% 100%,
+            28% 97%,
+            22% 88%,
+            25% 46%,
+            15% 41%,
+            0% 26%,
+            2% 18%,
+            5% 15%,
+            5% 7%
+    );
+}
+
+@import 'components/brasil';
