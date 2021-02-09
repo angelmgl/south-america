@@ -20,7 +20,6 @@
     position: absolute;
     clip-path: polygon(
             21% 0%,
-            48% 5%,
             50% 0%,
             58% 5%,
             58.9% 10.75%, /*Brasil starts*/
@@ -66,4 +65,5 @@
 
 @import 'components/brasil',
         'components/guayanaf',
-        'components/surinam';
+        'components/surinam',
+        'components/guyana';

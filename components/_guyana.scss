@@ -1,0 +1,25 @@
+.guyana {
+    width: 28px;
+    height: 44px;
+    background-color: #6ab04c;
+    position: absolute;
+    top: 29px;
+    left: 121px;
+    clip-path: polygon(
+                38% 0%,
+                98% 32%,
+                98% 45%,
+                86% 45%,
+                78.5% 55%,
+                100% 82%,
+                62% 98%,
+                29% 79%,
+                29% 41.2%,
+                7% 41.2%,
+                0% 26%
+    );
+
+    &:hover {
+        background-color: #f00;
+    }
+}
