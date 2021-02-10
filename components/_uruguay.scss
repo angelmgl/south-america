@@ -1,0 +1,22 @@
+.uruguay {
+    width: 25px;
+    height: 26px;
+    background-color: #0e4096;
+    position: absolute;
+    top: 241px;
+    left: 145px;
+    clip-path: polygon(
+                28% 1%,
+                63% 20%,
+                100% 55%,
+                95% 80%,
+                60% 100%,
+                21% 93%,
+                0% 72%,
+                5% 15%
+    );
+
+    &:hover {
+        background-color: #f00;
+    }
+}
