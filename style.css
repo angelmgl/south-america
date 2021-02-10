@@ -163,4 +163,19 @@
 .bolivia:hover {
   background-color: #f00;
 }
+
+.paraguay {
+  width: 52px;
+  height: 53px;
+  background-color: #eb4d4d;
+  position: absolute;
+  top: 173px;
+  left: 117px;
+  -webkit-clip-path: polygon(35% 0%, 59% 8%, 64.5% 45%, 86.5% 45%, 86.5% 61.5%, 100% 61.5%, 93% 90%, 70% 100%, 50% 95%, 60% 75%, 15% 55%, 5% 39%, 10% 8%);
+          clip-path: polygon(35% 0%, 59% 8%, 64.5% 45%, 86.5% 45%, 86.5% 61.5%, 100% 61.5%, 93% 90%, 70% 100%, 50% 95%, 60% 75%, 15% 55%, 5% 39%, 10% 8%);
+}
+
+.paraguay:hover {
+  background-color: #f00;
+}
 /*# sourceMappingURL=style.css.map */
