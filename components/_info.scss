@@ -1,0 +1,85 @@
+.info {
+
+    @media screen and (min-width: $desktop) {
+        width: 50%;
+        height: 420px;
+    }
+}
+
+.card {
+    background: linear-gradient(135deg, rgba(255,255,255,0.4), transparent);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(0,0,0,0.1);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    font-family: 'Lucida Sans';
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: all 1s;
+
+    .card-header {
+        
+        .flag {
+            width: 140px;
+            border-radius: 5px;
+        }
+
+        .code {
+            color: #ddd;
+            font-weight: 500;
+            font-size: 3rem;
+            padding-left: 10px;
+        }
+
+        .close {
+            height: 20px;
+            width: 20px;
+            border-radius: 50%;
+            border: none;
+            background-color: #f44;
+            color: #fff;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        .close:hover {
+            background-color: #f00;
+        }
+    
+    }
+
+    .card-body {
+
+        .name {
+            font-size: 1.8rem;
+            margin: 10px 0;
+            text-align: center;
+        }
+    }
+
+    .table {
+        text-align: left;
+        border-collapse: collapse;
+        width: 75%;
+        margin: 10px auto;
+
+        th, td {
+            width: 50%;
+            height: 25px;
+            font-size: 1.1em;
+        }
+    }
+
+    @media screen and (min-width: $desktop) {
+        position: relative;
+        margin-top: 60px;
+    }
+}
