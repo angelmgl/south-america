@@ -1,5 +1,24 @@
 {
   "dependencies": {
     "sass": "^1.32.6"
-  }
+  },
+  "name": "south-america",
+  "description": "An interactive map of South America built in HTML, CSS (Sass) and JavaScript Vanilla.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelmgl/south-america.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angelmgl/south-america/issues"
+  },
+  "homepage": "https://github.com/angelmgl/south-america#readme"
 }

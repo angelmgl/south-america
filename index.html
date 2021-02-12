@@ -11,52 +11,56 @@
     <div class="container">
         <div class="map">
             <div class="continent" id="continent">
-                <div class="brasil"></div>
-                <div class="guayanaf"></div>
-                <div class="surinam"></div>
-                <div class="guyana"></div>
-                <div class="venezuela"></div>
-                <div class="colombia"></div>
-                <div class="ecuador"></div>
-                <div class="peru"></div>
-                <div class="bolivia"></div>
-                <div class="paraguay"></div>
-                <div class="chile"></div>
-                <div class="uruguay"></div>
-                <div class="argentina"></div>
+                <div class="brasil" data-name="brasil"></div>
+                <div class="guyane" data-name="guyane"></div>
+                <div class="surinam" data-name="surinam"></div>
+                <div class="guyana" data-name="guyana"></div>
+                <div class="venezuela" data-name="venezuela"></div>
+                <div class="colombia" data-name="colombia"></div>
+                <div class="ecuador" data-name="ecuador"></div>
+                <div class="peru" data-name="peru"></div>
+                <div class="bolivia" data-name="bolivia"></div>
+                <div class="paraguay" data-name="paraguay"></div>
+                <div class="chile" data-name="chile"></div>
+                <div class="uruguay" data-name="uruguay"></div>
+                <div class="argentina" data-name="argentina"></div>
             </div>
         </div>
         <div class="info" id="info">
-            <div class="card">
+            <div class="card" id="card">
                 <div class="card-header">
-                    <img src="https://restcountries.eu/data/pry.svg" alt="flag" class="flag">
-                    <span class="code">PRY</span>
-                    <button class="close">x</button>
+                    <img src="https://restcountries.eu/data/pry.svg" alt="flag" class="flag" id="flag">
+                    <span class="code" id="code">PRY</span>
+                    <button class="close" id="close">x</button>
                 </div>
                 <div class="card-body">
-                    <h2 class="name">Paraguay</h2>
+                    <h2 class="name" id="name">Paraguay</h2>
                     <table class="table">
                         <tr>
                             <th>Capital</th>
-                            <td>Asunción</td>
+                            <td id="capital">Asunción</td>
                         </tr>
                         <tr>
                             <th>Población</th>
-                            <td>7105650</td>
+                            <td id="population">7105650</td>
                         </tr>
                         <tr>
                             <th>Área</th>
-                            <td>406752</td>
+                            <td id="area">406752</td>
                         </tr>
                         <tr>
                             <th>Idiomas</th>
-                            <td>Español y Guaraní</td>
+                            <td id="languages">Español y Guaraní</td>
+                        </tr>
+                        <tr>
+                            <th>Prefijo</th>
+                            <td id="prefix">595</td>
                         </tr>
                     </table>
                 </div>
             </div>
         </div>
     </div>
-    <script src="index.js"></script>
+    <script type="module" src="index.js"></script>
 </body>
 </html>
