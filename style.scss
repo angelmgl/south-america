@@ -1,4 +1,4 @@
-$desktop: "992px";
+$desktop: "800px";
 
 * {
     margin: 0;
@@ -9,6 +9,7 @@ $desktop: "992px";
 
 body {
     background-color: #297aff;
+    font-family: 'Lucida Sans';
 }
 
 .container {
@@ -26,7 +27,9 @@ body {
     }
 }
 
-@import 'components/map',
+@import 'components/header',
+        'components/footer',
+        'components/map',
         'components/info',
         'components/countries/brasil',
         'components/countries/guyane',
