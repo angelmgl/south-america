@@ -87,9 +87,10 @@ $continent.addEventListener("click", (e) => {
             $population.innerText = country.population;
             $area.innerText = country.area;
             $languages.innerText = setLanguages(country.languages);
-            $prefix.innerText = country.callingCodes;
+            $prefix.innerText = `+${country.callingCodes}`;
 
-            $card.style.display = 'block';
+            $card.style.opacity = 1;
+            $card.style.zIndex = 1;
         }
     });
 
@@ -97,4 +98,7 @@ $continent.addEventListener("click", (e) => {
     xhr.send();
 });
 
-$close.addEventListener('click', () => $card.style.display = 'none')
+$close.addEventListener('click', () =>  {
+    $card.style.opacity = 0;
+    $card.style.zIndex = -1
+});
