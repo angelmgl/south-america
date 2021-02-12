@@ -156,7 +156,6 @@ body {
 @media screen and (min-width: 992px) {
   .card {
     position: relative;
-    margin-top: 60px;
     height: auto;
     opacity: 1;
   }
