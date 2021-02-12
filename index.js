@@ -67,9 +67,11 @@ function getInfo(country) {
                 alpha3Code: json[0].alpha3Code, 
                 capital: json[0].capital, 
                 population: json[0].population,
-                area: json[0].area,
+                //The API does not send the French Guiana area
+                area: (json[0].alpha3Code === 'GUF') ? 83534 : json[0].area,
                 flag: json[0].flag,
-                languages: setLanguages(json[0].languages),
+                //The API does not send the correct languages
+                languages: (json[0].alpha3Code === 'ARG') ? 'Spanish' : setLanguages(json[0].languages),
                 callingCodes: json[0].callingCodes
             }
 
