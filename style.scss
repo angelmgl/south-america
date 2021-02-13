@@ -1,5 +1,7 @@
 $desktop: "800px";
 
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +11,7 @@ $desktop: "800px";
 
 body {
     background-color: #297aff;
-    font-family: 'Lucida Sans';
+    font-family: 'Lato', sans-serif;
 }
 
 .container {
